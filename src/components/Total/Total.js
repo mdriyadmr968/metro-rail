@@ -18,7 +18,7 @@ const Total = (props) => {
     <div>
       <h3>Order summary</h3>
       <h5>Ticket Ordered : {props.total.length}</h5>
-      <p>Total Cost : {totalprice}</p>
+      <p>Total Cost : {totalprice} Taka</p>
       <div>
         <h3>Selected Locations:</h3>
         <h3 className = "clicked">{clicked}</h3>

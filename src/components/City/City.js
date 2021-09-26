@@ -13,10 +13,10 @@ const City = (props) => {
           <div className="all-text">
             <img src={img} alt="" />
             <p>Name: {name}</p>
-            <p>Area: {area}</p>
-            <p>Distance: {distance}</p>
+            <p>Area: {area} square km</p>
+            <p>Distance: {distance} KM</p>
             <p>Famous place: {famousPlace}</p>
-            <p>Ticket cost: {cost}</p>
+            <p>Ticket cost: {cost} tk</p>
             <button
               onClick={() => props.handleTotal(props.city)}
               className="buy-ticket"
