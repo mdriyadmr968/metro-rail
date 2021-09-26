@@ -6,9 +6,11 @@
   width: 80%;
   margin-top: 5%;
   background-color: blanchedalmond;
+  border: 2px solid lightgrey;
+  border-radius: 10px;
 }
 img {
-  margin-top: 10px;
+  margin-top: 25px;
   width: 50%;
   height: 30%;
 }
@@ -23,6 +25,8 @@ img {
   width: 100%;
 }
 .buy-ticket {
+  padding: 10px;
+  margin: 5px;
   color: white;
   background-color: #008cba;
   border: 1px solid lightgrey;
