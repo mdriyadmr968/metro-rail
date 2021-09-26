@@ -6,7 +6,6 @@ import "./Locations.css";
 const Locations = () => {
   const [allcity, setAllcity] = useState([]);
   const [total, setTotal] = useState([]);
-  const [total2, setTotal2] = useState([]);
   useEffect(() => {
     fetch("./data.JSON")
       .then((res) => res.json())
@@ -18,20 +17,11 @@ const Locations = () => {
     setTotal(newtotal);
   };
 
-  const handleClickedby = (city) => {
-    const newClicked = [...total2, city];
-    setTotal2(newClicked);
-  };
   return (
     <div className="locations-container">
       <div className="allcity-container">
         {allcity.map((city) => (
-          <City
-            key={city.name}
-            city={city}
-            handleTotal={handleTotal}
-            handleClickedby={handleClickedby}
-          ></City>
+          <City key={city.name} city={city} handleTotal={handleTotal}></City>
         ))}
       </div>
       <div className="total-container">

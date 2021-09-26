@@ -5,13 +5,9 @@ import "./Total.css";
 const Total = (props) => {
   const { total } = props;
   let totalprice = 0;
-  let clicked = "";
   for (const city of total) {
     totalprice = totalprice + city.cost;
     
-  }
-  for (const city of total){
-    clicked = clicked +' ' + city.name ;
   }
 
   return (
@@ -21,7 +17,11 @@ const Total = (props) => {
       <p>Total Cost : {totalprice} Taka</p>
       <div>
         <h3 className="selected-loc">Selected Locations:</h3>
-        <h3 className = "clicked">{clicked}</h3>
+        <ul>
+          {
+            total.map(city => <li>{city.name}</li>)
+          }
+        </ul>
       </div>
     </div>
   );
