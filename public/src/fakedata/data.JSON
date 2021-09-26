@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Dhaka",
+    "distance": 50,
+    "area": 45354,
+    "famousPlace": "savar",
+    "cost": 5000
+  },
+  {
+    "name": "Chittagong",
+    "distance": 30,
+    "area": 4354,
+    "famousPlace": "Tigerpass",
+    "cost": 2000
+  },
+  {
+    "name": "Rajshahi",
+    "distance": 100,
+    "area": 45344,
+    "famousPlace": "chawkbazar",
+    "cost": 7000
+  },
+  {
+    "name": "Sylhet",
+    "distance": 200,
+    "area": 23354,
+    "famousPlace": "tonger dokan",
+    "cost": 10000
+  },
+  {
+    "name": "Comilla",
+    "distance": 220,
+    "area": 45435,
+    "famousPlace": "sadar",
+    "cost": 7000
+  },
+  {
+    "name": "Barishal",
+    "distance": 200,
+    "area": 45744,
+    "famousPlace": "comilla sadar",
+    "cost": 12000
+  },
+  {
+    "name": "Noakhali",
+    "distance": 50,
+    "area": 45354,
+    "famousPlace": "Maijdi",
+    "cost": 1500
+  },
+  {
+    "name": "Khulna",
+    "distance": 50,
+    "area": 4354,
+    "famousPlace": "lalkhan",
+    "cost": 5300
+  },
+  {
+    "name": "Maimansingh",
+    "distance": 60,
+    "area": 45844,
+    "famousPlace": "veramara",
+    "cost": 500
+  }
+]

@@ -1,0 +1,40 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  align-items: center;
+  height: 400px;
+  transition: 0.3s;
+  width: 80%;
+  margin-top: 5%;
+  
+}
+img {
+  margin-top: 10px;
+  width: 50%;
+  height: 30%;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  
+}
+
+.container {
+  padding: 2px 16px;
+  
+}
+.card-container {
+  width: 100%;
+  
+  
+}
+.buy-ticket {
+  color: white;
+  background-color: #008cba;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+}
+.all-text {
+  font-size: small;
+  margin-left: 20%;
+  
+  
+}
