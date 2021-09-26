@@ -5,7 +5,7 @@
   transition: 0.3s;
   width: 80%;
   margin-top: 5%;
-  
+  background-color: blanchedalmond;
 }
 img {
   margin-top: 10px;
@@ -14,17 +14,13 @@ img {
 }
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  
 }
 
 .container {
   padding: 2px 16px;
-  
 }
 .card-container {
   width: 100%;
-  
-  
 }
 .buy-ticket {
   color: white;
@@ -33,8 +29,6 @@ img {
   border-radius: 10px;
 }
 .all-text {
-  font-size: small;
+  /* font-size: 400; */
   margin-left: 20%;
-  
-  
 }

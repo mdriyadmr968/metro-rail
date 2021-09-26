@@ -9,16 +9,19 @@ const City = (props) => {
   return (
     <div className="card-container">
       <div className="card">
-        <img src={img} alt="" />
         <div className="container">
           <div className="all-text">
+            <img src={img} alt="" />
             <p>Name: {name}</p>
             <p>Area: {area}</p>
             <p>Distance: {distance}</p>
             <p>Famous place: {famousPlace}</p>
             <p>Ticket cost: {cost}</p>
-            <button onClick={() =>props.handleTotal(props.city)} className="buy-ticket">{element}
-              Buy ticket
+            <button
+              onClick={() => props.handleTotal(props.city)}
+              className="buy-ticket"
+            >
+              {element} Buy ticket
             </button>
           </div>
         </div>

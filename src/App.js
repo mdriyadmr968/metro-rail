@@ -6,9 +6,9 @@ import Locations from "./components/Locations/Locations";
 function App() {
   
   return (
-    <div>
+    <div className="body">
       <Header></Header>
-      <Locations ></Locations>
+      <Locations></Locations>
 
       
     </div>
