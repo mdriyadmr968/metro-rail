@@ -4,13 +4,13 @@ const Header = () => {
     return (
       <div className="header">
         <h2 style={{ textAlign: "center", color: "	#008b8b" }}>
-          welcome to Gurondaz metro-rail service
+          WELCOME TO GHURONDAZ METRO RAIL SERVICE
         </h2>
-        <p style={{ textAlign: "center", color:"white" }}>
-          explore Bangladesh with our first class Metro rail
+        <p style={{ textAlign: "center", color: "" }}>
+          EXPLORE BANGLADESH WITH OUR FIRST CLASS METRO RAIL
         </p>
-        <h3 style={{ textAlign: "center", color:"yellow" }}>
-          Our Cheapest ticket price is only 2000 Taka
+        <h3 style={{ textAlign: "center", color: "" }}>
+          OUR TICKET PRICE IS STARTING AT 20$
         </h3>
       </div>
     );

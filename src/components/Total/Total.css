@@ -1,12 +1,43 @@
 .clicked {
-    width: 30%;
-    padding: 5px;
+  width: 30%;
+  padding: 5px;
 }
-.order-sum{
-    color: linen;
-
+.order-sum {
+  color: linen;
 }
-.selected-loc{
-    color: mediumpurple;
+.selected-loc {
+  color: mediumpurple;
+}
+.card-image {
+  width: 80px;
+}
+.card-item-container {
+  display: flex;
+  margin: auto;
+}
 
+
+.cart-images {
+  width: 50px;
+  height: 60px;
+  margin: auto;
+}
+.li-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* gap: 30px; */
+  border: 2px solid wheat;
+  border-radius: 5% !important;
+  padding: 2%;
+  margin-bottom: 5%;
+  background-color: whitesmoke;
+  /* margin-right: 5%; */
+}
+.card-header {
+  border: 2px solid rgb(187, 131, 67);
+  border-radius: 5%;
+  text-align: center;
+  background-color: rgb(216, 224, 231);
+  margin-top: 4%;
 }

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=PT+Serif:ital@0;1&family=Playfair+Display&display=swap');
 .App {
   text-align: center;
 }
@@ -36,6 +37,7 @@
     transform: rotate(360deg);
   }
 }
-.body {
-  background-color: #ff9a9e ;
+body{
+  background-color: #f1f1f1 ;
+  font-family: 'Merriweather', serif;
 }
