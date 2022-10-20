@@ -35,9 +35,9 @@
   /* margin-right: 5%; */
 }
 .card-header {
-  border: 2px solid rgb(187, 131, 67);
+  border: 1px solid black;
   border-radius: 5%;
   text-align: center;
-  background-color: rgb(216, 224, 231);
+  background-color: white;
   margin-top: 4%;
-}
+}   
